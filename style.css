@@ -7,7 +7,7 @@
 }
 /*class selector*/
 .hero__section {
-    background-image: url(heroSectionBackground.png);
+    background-image: url(images/heroSectionBackground.png);
     min-height: 60vh;
     background-size: cover;
     background-position: center;
@@ -172,25 +172,25 @@ gap:1rem;
 
 }
 .card_1{
-    background-image: url(collection1.jpg);
+    background-image: url(images/collection1.jpg);
 /* width: auto;
     height: 300px;
     overflow: hidden;*/
 }
 .card_2{
-    background-image: url(collection2.jpg);
+    background-image: url(images/collection2.jpg);
 /* width: auto;
     height: 300px;
     overflow: hidden;*/
 }
 .card_3{
-    background-image: url(collection3.jpg);
+    background-image: url(images/collection3.jpg);
 /* width: auto;
     height: 300px;
     overflow: hidden;
 */}
 .card_4{
-    background-image: url(collection4.jpg);
+    background-image: url(images/collection4.jpg);
 /*  width: auto;
     height: 300px;
     overflow: hidden;
@@ -439,3 +439,15 @@ display: flex;
 }
 }
 /*media query for footer*/
+@media only screen and (max-width:600px){
+    .navigation_container .link_container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .footer_link{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
